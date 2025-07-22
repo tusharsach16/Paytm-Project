@@ -12,6 +12,7 @@ const ThemeImage = (props: Props) => {
 
   return (
     <>
+      <h1 className="bg-red-700">Hi</h1>
       <Image {...rest} src={srcLight} className="imgLight" />
       <Image {...rest} src={srcDark} className="imgDark" />
     </>
@@ -33,7 +34,7 @@ export default function Home() {
         />
         <ol>
           <li>
-            Get started by editing <code>apps/web/app/page.tsx</code>
+            Get started by editing <code>apps/docs/app/page.tsx</code>
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
@@ -63,7 +64,7 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="web" className={styles.secondary}>
+        <Button appName="docs" className={styles.secondary}>
           Open alert
         </Button>
       </main>
